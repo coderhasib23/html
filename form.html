@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types Explore</title>
+  </head>
+  <body>
+    <h4>Label and Id help us comfortable selection</h4>
+    <form>
+      <label for="fname">First Name:</label> <br />
+      <input type="text" id="fname" name="fname" /> <br />
+      <label for="lname">Last Name:</label> <br />
+      <input type="text" name="lname" id="lname" /> <br />
+      <label for="username">Username:</label> <br />
+      <input type="text" name="username" id="username" /> <br />
+      <label for="pwd">Password:</label> <br />
+      <input type="password" name="pwd" id="pwd" /> <br />
+      <label for="email">Enter your Email:</label> <br />
+      <input type="email" name="email" id="email" /> <br />
+      <br />
+      <label for="fav_language">Choose your favorite Web Language:</label>
+      <br />
+      <input type="radio" name="fav_language" id="html" />
+      <label for="html">HTML</label> <br />
+      <input type="radio" name="fav_language" id="css" />
+      <label for="css">CSS</label> <br />
+      <input type="radio" name="fav_language" id="javascirpt" />
+      <label for="javascirpt">JavaScirpt</label> <br />
+      <label for="my_vehicle">Choose your Vehicle</label> <br />
+      <input type="checkbox" name="vehicle_1" id="vehicle_1" value="Bike" />
+      <label for="vehicle_1">Bike</label> <br />
+      <input type="checkbox" name="vehicle_2" id="vehicle_2" value="Car" />
+      <label for="vehicle_2">Car</label> <br />
+      <input type="checkbox" name="vehicle_3" id="vehicle_3" value="Boat" />
+      <label for="vehicle_3">Boat</label> <br />
+      <br />
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" name="favcolor" id="favcolor" value="#ff0000" />
+      <br />
+      <br />
+      <label for="birthday">Birthday</label>
+      <input type="date" name="birthday" id="birthday" /> <br />
+      <br />
+      <label for="datemax">Enter a date before 2000-01-01</label>
+      <input type="date" name="datemax" id="datemax" max="2000-01-01" />
+      <br />
+      <label for="datemax">Enter a date after 2010-01-01</label>
+      <input type="date" name="datemax" id="datemax" min="2010-01-01" />
+      <br />
+      <label for="birthdaytime">Birthday (Date & Time)</label>
+      <input type="datetime-local" name="birthdaytime" id="birthdaytime" />
+      <br />
+      <br />
+      <label for="upload">Upload your Image</label>
+      <input type="file" name="upload" id="upload" /> <br />
+      <br />
+
+      <input type="hidden" value="1234" />
+      <input type="submit" value="Submit" />
+      <input type="reset" />
+      <input
+        type="image"
+        src="images/input_type/img_submit.gif"
+        alt="submit"
+        width="30"
+        height="30"
+        name="Iname"
+        id="Iname"
+      />
+    </form>
+  </body>
+</html>
